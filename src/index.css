@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #2BB8D2;
+  --secondary-color: #31D06C;
+  --nav-link-color: #A7A7A7;
+}
+
+.down-button {
+  filter: invert(0.3);
+}
+
