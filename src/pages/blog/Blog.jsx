@@ -35,7 +35,7 @@ const Blog = () => {
   ]
   
   return (
-    <div className='px-20 py-5'>
+    <div className='px-20 py-5 mt-9'>
       <div>
         <h1 className='text-5xl pb-5'>
           Latest Articles
@@ -43,7 +43,7 @@ const Blog = () => {
       </div>
 
       
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[50px] py-[40px]'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[50px] py-[50px]'>
         {blogArray.map(blog => (
           <div className='flex-col shadow-[5px_5px_10px_rgba(0,0,0,0.5)]'>
             <img src={blog.img} className='h-[260px] w-[100%] object-cover' alt="" />

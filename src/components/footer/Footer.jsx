@@ -13,8 +13,8 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='flex justify-between px-20 py-10 bg-[#2D314D]'>
-        <div className=''>
+    <div className='flex justify-between items-center px-20 py-10 bg-[#2D314D] flex-col lg:flex-row gap-[80px]'>
+        <div className='text-center'>
             <Link to='/footer'><img className='down-button' src={myLogo2} /></Link>
             <div className='flex mt-[40px] gap-[15px] text-[#fff]'>
                 <FaFacebook />
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='text-white'>
+        <div className='text-white text-center lg:text-left'>
             <button className='py-3 px-7 bg-gradient-to-r from-green-400 to-blue-500 rounded-full text-white mb-5 border hover:border-black'>Request Invite</button>
             <p>© Easybank. All Rights Reserved</p>
         </div>

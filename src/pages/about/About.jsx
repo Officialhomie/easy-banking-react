@@ -30,12 +30,12 @@ const About = () => {
   ]
   return (
     <div className='px-20 py-[50px]'>
-      <div className='flex-col'>
+      <div className='flex-col text-center lg:text-left lg:w-[45%] mt-9'>
           <h1 className='text-5xl pb-5'>Why choose Easybank?</h1>
           <p className='text-xl pb-5'>We leaverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-[50px] py-[30px]">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-[50px] py-[55px]">
         {aboutArray.map(about =>(
           <div className='flex-col bg-white hover:bg-gray-200 py-[40px] px-[20px] rounded-[20px] transition duration-300'>
             <img className='' src={about.img} alt="Icon Online" />
